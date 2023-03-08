@@ -42,46 +42,64 @@
 }
 
 .top_box_right_2 {
-    width: 700px;
+    width: 690px;
     height: auto;
     float: left;
     margin: 0;
     border: 0;
     padding: 10px;
     background-color: #e0e0e0;
+    border-right: 10px solid #323232;
 }
 
 .top_box_right_3 {
-    width: 700px;
+    width: 690px;
     height: 474px;
     float: left;
     margin: 0;
     border: 0;
     padding: 10px;
     background-color: #e0e0e0;
+    border-right: 10px solid #323232;
 }
 
-#central_box_left {
+.central_box_left {
     width: 512px;
-    height: auto;
+    height: 210px;
     float: left;
+    background-color: #e0e0e0;
     padding: 0;
-    border: 1px solid blue;
+    border-left: 10px solid #323232;
+    border-right: 10px solid #323232;
+    border-bottom: 5px solid #323232;
+    border-top: 2px solid #FF3333;
+    margin-left: 10px;
 }
 
-#central_box_right {
+.central_box_right {
     width: 512px;
-    height: auto;
+    height: 210px;
     float: left;
+    background-color: #e0e0e0;
     padding: 0;
-    border: 1px solid blue;
+    border-left: 10px solid #323232;
+    border-right: 10px solid #323232;
+    border-bottom: 5px solid #323232;
+    border-top: 2px solid #FF3333;
+    margin-right: 10px;
 }
 
-#footer_box {
-    width: 1024;
+.footer_box {
+    width: 1044px;
+    height: 170px;
     float: left;
-    padding: 10px;
-    border: 1px solid blue;
+    background-color: #e0e0e0;
+    padding: 0;
+    border-left: 10px solid #323232;
+    border-right: 10px solid #323232;
+    border-bottom: 10px solid #323232;
+    border-top: 2px solid #FF3333;
+    margin-left: 10px;
 }
 
 /** Imagenes */
@@ -109,7 +127,8 @@ h3 {
     padding-bottom: 2px;
 }
 
-h4 {font-size: medium;
+h4 {
+    font-size: medium;
     font-family: Arial, Helvetica, sans-serif;
     color: #242424;
     text-decoration: underline;
@@ -164,4 +183,28 @@ h4 {font-size: medium;
     border-top: 2px solid;
     color: #FF3333;
     margin-top: 9px;
+}
+
+.form {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-style: italic;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 20px;
+    padding-bottom: 20px;
+}
+
+.content_1 {
+    margin-right: 20px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.content_2 {
+    width: 1000px;
+    height: 20px;
+    margin-right: 20px;
+    padding-right: 10px
 }
