@@ -208,3 +208,16 @@ h4 {
     margin-right: 20px;
     padding-right: 10px
 }
+
+/** Botones */
+
+.mas {
+    background-color: #f84c4c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+    border-style: groove;
+    border-radius: 10%;
+    border-color: #f84c4c;
+    font-weight: bolder;
+    color: #e0e0e0;
+}
