@@ -22,8 +22,6 @@ document.getElementById('edubt_2').onclick = function() {
     document.getElementById('txtedubt_2').innerHTML = "Instituto Superior CADS | 2008-2011";
 }
 
-
-
 /** 
 let button_1 = document.getElementById('button_1');
 
